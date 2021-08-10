@@ -141,6 +141,28 @@ td > p {
   font-size: 0.8rem;
 }
 
+/* Contact */
+
+.contact {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 32px;
+}
+
+.contact-element:not(:last-child) {
+  margin-right: 48px;
+}
+
+.contact-element h4 {
+  text-align: center;
+  margin: 16px 0;
+}
+
+.contact-element p {
+  text-align: center;
+  margin: 0;
+}
+
 /* Footer */
 
 .footer-container {
