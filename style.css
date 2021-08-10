@@ -150,7 +150,7 @@ td > p {
 }
 
 .contact-element:not(:last-child) {
-  margin-right: 48px;
+  margin-right: 1rem;
 }
 
 .contact-element h4 {
@@ -161,6 +161,11 @@ td > p {
 .contact-element p {
   text-align: center;
   margin: 0;
+}
+
+.google-map {
+  width: 100%;
+  height: 12rem;
 }
 
 /* Footer */
@@ -178,7 +183,7 @@ td > p {
 }
 
 .laure-logo {
-  width: 20%;
+  width: 8rem;
 }
 
 .logo {
